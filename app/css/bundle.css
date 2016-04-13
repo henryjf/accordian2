@@ -11,6 +11,8 @@
     padding: 10px;
     color: white;
     font-size: 20px; }
+    .section header:hover {
+      background-color: #00def0; }
   .section p {
     padding: 10px 15px;
     font-size: 14px;

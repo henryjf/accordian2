@@ -1,5 +1,5 @@
 $border: 1px solid #00C6D6;
-
+$color: #00C6D6;
 
 .container {
   background-color: #FFFFFF;
@@ -11,10 +11,14 @@ $border: 1px solid #00C6D6;
   max-height: 200px;
 
   header {
-    background-color: #00C6D6;
+    background-color: $color;
     padding: 10px;
     color: white;
     font-size: 20px;
+
+    &:hover {
+      background-color:lighten($color, 5%);
+    }
   }
   p {
     padding: 10px 15px;
