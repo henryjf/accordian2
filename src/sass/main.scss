@@ -4,7 +4,7 @@ $color: #00C6D6;
 .container {
   background-color: #FFFFFF;
   margin: 100px 200px;
-  width: 450px;
+  width: 475px;
 }
 .section {
   border: $border;
@@ -27,8 +27,8 @@ $color: #00C6D6;
         color: #A2A0A3;
       }
 
-      .para {
-        height: 0;
+      #para1 {
+        max-height: 0;
         overflow: hidden;
       }
 }

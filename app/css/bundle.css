@@ -1,7 +1,7 @@
 .container {
   background-color: #FFFFFF;
   margin: 100px 200px;
-  width: 450px; }
+  width: 475px; }
 
 .section {
   border: 1px solid #00C6D6;
@@ -18,6 +18,6 @@
     margin: 0;
     font-size: 14px;
     color: #A2A0A3; }
-  .section .para {
-    height: 0;
+  .section #para1 {
+    max-height: 0;
     overflow: hidden; }
