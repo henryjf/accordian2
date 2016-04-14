@@ -1,10 +1,10 @@
 .container {
   background-color: #FFFFFF;
-  margin: 100px 200px; }
+  margin: 100px 200px;
+  width: 450px; }
 
 .section {
   border: 1px solid #00C6D6;
-  width: 450px;
   max-height: 200px; }
   .section header {
     background-color: #00C6D6;
@@ -12,8 +12,12 @@
     color: white;
     font-size: 20px; }
     .section header:hover {
-      background-color: #00def0; }
+      background-color: #00d9ea; }
   .section p {
-    padding: 10px 15px;
+    padding: 15px;
+    margin: 0;
     font-size: 14px;
     color: #A2A0A3; }
+  .section .para {
+    height: 0;
+    overflow: hidden; }

@@ -4,10 +4,10 @@ $color: #00C6D6;
 .container {
   background-color: #FFFFFF;
   margin: 100px 200px;
+  width: 450px;
 }
 .section {
   border: $border;
-  width: 450px;
   max-height: 200px;
 
   header {
@@ -17,12 +17,18 @@ $color: #00C6D6;
     font-size: 20px;
 
     &:hover {
-      background-color:lighten($color, 5%);
+      background-color:lighten($color, 4%);
     }
   }
-  p {
-    padding: 10px 15px;
-    font-size: 14px;
-    color: #A2A0A3;
-  }
+      p {
+        padding: 15px;
+        margin: 0;
+        font-size: 14px;
+        color: #A2A0A3;
+      }
+
+      .para {
+        height: 0;
+        overflow: hidden;
+      }
 }
