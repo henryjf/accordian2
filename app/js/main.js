@@ -1,16 +1,19 @@
-var section = $('.para');
+var para = $('.para');
 var header = $('header');
 
 header.on('click', function(event){
   event.preventDefault();
 
-section.toggleClass('hidden');
-
-section.addClass('hidden');
+  para.toggleClass('hidden');
 
 var parent = $(this).parent();
 parent.removeClass('hidden');
+parent.addClass('hidden');
+// parent.toggleClass('hidden');
 
-console.log(event);
+// para.removeClass('hidden');
+
+
+// console.log(event);
 
 });
