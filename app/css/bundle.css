@@ -12,7 +12,8 @@
   padding: 0 10px;
   margin: 0;
   font-size: 14px;
-  color: #A2A0A3; }
+  color: #A2A0A3;
+  transition: all 1s ease; }
   .para.hidden {
     height: 0; }
 

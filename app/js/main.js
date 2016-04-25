@@ -7,8 +7,9 @@ header.on('click', function(event){
   para.toggleClass('hidden');
 
 var parent = $(this).parent();
-parent.removeClass('hidden');
-parent.addClass('hidden');
+parent.removeClass('hidden').addClass('hidden');
+
+
 // parent.toggleClass('hidden');
 
 // para.removeClass('hidden');

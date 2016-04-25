@@ -17,6 +17,7 @@ $color: #00C6D6;
   margin: 0;
   font-size: 14px;
   color: #A2A0A3;
+  transition: all 1s ease;
 
   &.hidden {
     height:0;
