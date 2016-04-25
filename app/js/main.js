@@ -1,12 +1,16 @@
-var button = $('header');
+var section = $('.para');
+var header = $('header');
 
-button.on('click', function(event){
+header.on('click', function(event){
   event.preventDefault();
-console.log(button);
-var section1 = $('#para1');
 
-$(section1.addClass('#para1'))
+section.toggleClass('hidden');
 
-button.toggleClass('#para1');
+section.addClass('hidden');
+
+var parent = $(this).parent();
+parent.removeClass('hidden');
+
+console.log(event);
 
 });

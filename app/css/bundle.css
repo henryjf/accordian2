@@ -1,23 +1,25 @@
 .container {
   background-color: #FFFFFF;
   margin: 100px 200px;
-  width: 475px; }
+  width: 425px; }
 
 .section {
-  border: 1px solid #00C6D6;
-  max-height: 200px; }
-  .section header {
-    background-color: #00C6D6;
-    padding: 10px;
-    color: white;
-    font-size: 20px; }
-    .section header:hover {
-      background-color: #00d9ea; }
-  .section p {
-    padding: 15px;
-    margin: 0;
-    font-size: 14px;
-    color: #A2A0A3; }
-  .section #para1 {
-    max-height: 0;
-    overflow: hidden; }
+  border: 1px solid #00C6D6; }
+
+.para {
+  height: 95px;
+  overflow: hidden;
+  padding: 10px;
+  margin: 0;
+  font-size: 14px;
+  color: #A2A0A3; }
+  .para.hidden {
+    height: 0; }
+
+header {
+  background-color: #00C6D6;
+  padding: 10px;
+  color: white;
+  font-size: 20px; }
+  header:hover {
+    background-color: #00d9ea; }
