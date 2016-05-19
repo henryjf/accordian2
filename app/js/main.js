@@ -1,13 +1,24 @@
-var para = $('.para');
+var head1= $('.head1');
 var header = $('header');
+var para = $('.para');
+var one = $('.one');
 
-header.on('click', function(event){
+
+head1.on('click', function(event){
   event.preventDefault();
 
-  para.toggleClass('hidden');
+  head1.next().toggleClass('hidden');
 
-var parent = $(this).parent();
-parent.removeClass('hidden').addClass('hidden');
+
+  // var header = $(this).header();
+  // header.removeClass('hidden')
+
+
+});
+// console.log(header.on);
+
+
+
 
 
 // parent.toggleClass('hidden');
@@ -16,5 +27,3 @@ parent.removeClass('hidden').addClass('hidden');
 
 
 // console.log(event);
-
-});
